@@ -1,0 +1,115 @@
+.calc_box{
+    height: 90vh;
+    width: 30vw;
+    /* box-shadow: rgba(36, 171, 238, 0.3) 0px 19px 38px, rgba(80, 190, 237, 0.22) 0px 15px 12px; */
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-left: 120px;
+    border-radius: 5px;
+    background-color: rgba(6, 144, 146, 0.6);
+    border: 2px solid rgb(4, 111, 23);
+}
+.heading{
+    color: black;
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.form{
+    margin-top: 0px;
+    /* border: 2px solid green; */
+    height: 75vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.age-box{
+    padding: 15px;
+    font-size: 20px;
+}
+.age-input{
+    height: 30px;
+    width: 280px;
+    background-color: azure;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+}
+.weight-box{
+    padding: 10px;
+    font-size: 20px;
+    
+}
+.weight-input{
+    height: 30px;
+    width: 280px;
+    background-color: azure;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+}
+.height-box{
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.height-input{
+    height: 30px;
+    width: 280px;
+    background-color: azure;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btns-box{
+    height: 70px;
+    width: 325px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 70px;
+}
+.submit-btn{
+    height: 40px;
+    width: 130px;
+    background-color: rgb(72, 201, 252);
+    color: white;
+    letter-spacing: 1px;
+    font-size: 15px;
+    border: none;
+    border-radius: 2px;
+    &:hover{
+        cursor: pointer;
+        background-color: rgb(29, 168, 228);
+        transition-duration: 0.15s;
+        
+    }
+}
+.reload-btn{
+    height: 40px;
+    width: 130px;
+    background-color: rgb(239, 24, 24);
+    color: white;
+    letter-spacing: 1px;
+    font-size: 15px;
+    border: none;
+    border-radius: 2px;
+    &:hover{
+        cursor: pointer;
+        background-color: rgb(197, 10, 10);
+        transition-duration: 0.15s;
+
+    }
+}
+.bmi-value{
+    color: azure;
+    font-size: 22px;
+    font-weight: bolder;
+}
